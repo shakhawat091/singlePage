@@ -1,0 +1,244 @@
+@import url('https//fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --bg:rgba(239, 243, 246, 1);
+    --blue:#0188df;
+    --black:#354046;
+}
+*{
+    scroll-behavior: smooth;
+    font-family: 'roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .2s linear;
+    font-family: __SolaimanLipi_b8d676, __SolaimanLipi_Fallback_b8d676;
+}
+html{
+    overflow-x: hidden;
+}body{
+    overflow-x: hidden;
+    background: var(--bg);
+}
+section{
+    overflow: hidden;
+}
+.border-p{
+    border-bottom: 1px solid rgb(161, 161, 161);
+    width: 2.5rem;
+    font-size: 14px;
+}
+.left-icon i{
+    font-size: 3rem;
+}
+.left-side{
+    justify-content: space-between;
+}
+.p-top{
+    position: relative;
+    margin: -12px;
+}
+.left-p{
+    font-size: 14px;
+    font-weight: 600;
+}
+.right-side i{
+    font-size: 15px;
+    background-color: rgb(219, 223, 223);
+    border-radius: 4px;
+    padding: 10px;
+}
+strong{
+    font-size: larger;
+}
+.add-p{
+    font-size: 12px;
+    margin-bottom: 12rem;
+}
+.all-p{
+    font-size: 18px;
+    font-weight: 520;
+    line-height: 1.6;
+}
+.table{
+    background-color: #e4f1e9;
+}
+.table h5{
+    background-color: #c2daf5;
+    font-weight: 600;
+}
+.table h6{
+    color: #236fa1; 
+    font-weight: 600;
+}
+.table h6:hover{
+    color: #3b82f6;
+}
+.table a{
+    text-decoration: none;
+    list-style: none;
+}
+.text-logo a{
+    background-color: #249833;
+    font-size: 15px;
+    padding: 11px 13px;
+    text-decoration: none;
+}
+.font-weigh{
+   color: #797980;
+}
+.box-a a{
+    text-decoration: none;
+    padding: 9px;
+    background-color: #e3e3e3;
+    color: black;
+    font-size: 15px
+}
+.box img{
+    width: 100%;
+    height: 70%;
+}
+/* =======col 3 ===== */
+.add-section{
+    border-bottom: 2px solid rgb(167, 167, 167);
+    padding-bottom: 32vh;
+}
+.add-post a{
+    text-decoration: none;
+    color: rgb(41, 19, 82);
+}
+.video-border{
+    border-bottom: 2px solid rgb(167, 167, 167);
+}
+
+.nane-img img{
+    display: none;
+}
+
+/*=========== footer section ======== */
+
+.apan{
+    background-color: black;
+    height: .3rem;
+    width: 100%;
+}
+
+footer{
+    margin-top: 2.5rem;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-img img{ 
+    height: 3rem;
+    width: 100%;
+}
+.footer-a a{
+    color: black;
+    padding-right: 1rem;
+    text-decoration: none;
+}
+.footer-a{
+    padding: 1rem 0;
+    text-align: center;
+}
+.footer-a-i a{
+    color: black;
+    padding-right: 0.5rem;
+    text-decoration: none;
+    font-size: 15px;
+}
+.footer-a-i{
+    padding: 0.5rem 0;
+    text-align: center;
+    justify-content: center; 
+}
+.footer-a-i a i{
+    margin-right: 5px;
+    font-size: 20px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+}
+.icon i{
+    font-size: 22px;
+    border: 1px solid rgb(163, 162, 162);
+    border-radius: 2px;
+    margin: 1rem 0;
+    padding: 5px;
+    margin-right: 8px;
+}
+.icon i:hover{
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.gap-section{
+    background-color: #ffffff !important;
+    height: 1.2rem;
+    width: 100%;
+}
+
+@media (max-width: 720px){
+    html{
+        font-size: 90%;
+    }
+    .single-left-content {
+        border-right: none !important;
+    }
+    .left-side {
+        display: block !important;
+        margin: 1rem 0;
+    }
+    .container{
+        display: block !important;
+    }
+
+    .box-container{
+        display: block !important;
+    }
+    .nane-img img{
+        display: block;
+    }
+    /* footer  */
+    .flex{
+        display: block;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer-img{
+        margin-bottom: 1rem;
+    }
+    .footer-a-i{
+        margin: 0 1rem;
+    }
+
+    .box-container{
+        display: none !important;
+    }
+    .box-container{
+        flex-direction: column;
+    }
+
+    
+}
+
+
+
+@media (max-width: 721px) {
+    .box-container-two{
+        display: block;
+    }
+
+    .box-container-two img{
+        margin: 0rem 1rem;
+        width: 100%;
+        height: 6rem;
+    }
+}
+@media screen and (min-device-width: 722px) and (max-device-width: 3000px) { 
+    .box-container-two{
+        display: none;
+    }
+}
